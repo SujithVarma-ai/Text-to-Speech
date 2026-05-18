@@ -1,74 +1,158 @@
-# 🎙️ AI Voice Studio - Premium Text-to-Speech Converter
+# 🎙️ AI Voice Studio – Premium Text-to-Speech Converter
 
-A modern, high-quality Web Application built with Python and Streamlit that converts text into natural-sounding speech using Google Text-to-Speech (gTTS).
+AI Voice Studio is a modern and interactive Text-to-Speech web application built using Python, Streamlit, and Google Text-to-Speech (gTTS).  
+It converts written text into realistic speech audio with support for multiple languages, speech speed control, audio playback, and MP3 downloads.
 
-![Project Banner](https://img.shields.io/badge/UI-Glassmorphism-a855f7?style=for-the-badge) ![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+---
+
+# 🌐 Live App
+
+🔗 https://text-to-speech-ldcpf9jm3nrjjttn6rg7cu.streamlit.app/
+
+---
 
 ## ✨ Features
 
-*   **Premium Interface:** Stunning dark mode UI featuring glassmorphism, sleek gradients, and smooth micro-animations.
-*   **Global Reach:** Support for 15+ international languages and regional accents (English US/UK/AU/IN, Spanish, French, Japanese, Mandarin, etc.).
-*   **Real-time Analytics:** Instant character and word counting as you type.
-*   **Speech Control:** Adjustable speech speed (Normal / Slow).
-*   **Direct Playback:** Listen to the generated audio directly within your browser.
-*   **Instant Export:** Download the generated speech as high-quality MP3 files with a single click.
-*   **Responsive Architecture:** Fully mobile-friendly and adapts seamlessly to any screen size.
+- 🌍 Multi-language text-to-speech conversion
+- 🎧 Real-time audio playback
+- ⬇️ Download generated speech as MP3
+- ⚡ Adjustable speech speed (Normal / Slow)
+- 📊 Live word and character counter
+- 🎨 Modern glassmorphism-inspired UI
+- 📱 Fully responsive design
+- 🌐 Support for multiple English accents and international languages
+
+---
+
+## 🌎 Supported Languages
+
+- English (US, UK, Australia, India)
+- Spanish
+- French
+- German
+- Italian
+- Portuguese
+- Hindi
+- Japanese
+- Korean
+- Chinese (Mandarin)
+- Russian
+- Arabic
+
+---
+
+## 🖼️ Application Preview
+
+![App Screenshot](https://github.com/SujithVarma-ai/Text-to-Speech/blob/main/Screenshot%202026-05-18%20092450.png)
+
+---
 
 ## 📁 Project Structure
 
 ```text
 text_to_speech_app/
 │
-├── app.py              # Main Streamlit application logic and UI code
-├── requirements.txt    # Project dependencies
-└── README.md           # Project documentation
+├── app.py
+├── requirements.txt
+├── README.md
+└── screenshot.png
 ```
 
-## 🚀 Quick Start & Deployment
+---
 
-### Local Development
+## ⚙️ Installation
 
-1. **Clone the repository or navigate to the project folder:**
-   ```bash
-   cd text_to_speech_app
-   ```
+### 1️⃣ Clone Repository
 
-2. **Create a virtual environment (Recommended):**
-   ```bash
-   python -m venv venv
-   
-   # On Windows
-   venv\Scripts\activate
-   # On macOS/Linux
-   source venv/bin/activate
-   ```
+```bash
+git clone https://github.com/SujithVarma-ai/Text-to-Speech.git
+```
 
-3. **Install the dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 2️⃣ Navigate to Project Folder
 
-4. **Run the application:**
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+cd Text-to-Speech
+```
 
-5. **Open your browser:**
-   The application will automatically open at `http://localhost:8501`.
+### 3️⃣ Create Virtual Environment (Optional but Recommended)
 
-### ☁️ Cloud Deployment (Streamlit Community Cloud)
+#### Windows
 
-Deploying this app is extremely easy and free using Streamlit Community Cloud:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-1. Push this project folder to a public or private **GitHub repository**.
-2. Log in to [Streamlit Community Cloud](https://share.streamlit.io/).
-3. Click on **"New app"**.
-4. Select your GitHub repository, branch, and specify `app.py` as the Main file path.
-5. Click **"Deploy"**.
-6. Within minutes, your app will be live and accessible via a public URL!
+#### macOS/Linux
 
-## 🛠️ Technology Stack
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-*   **Frontend:** Streamlit, Vanilla CSS3 (Custom Injections)
-*   **Backend:** Python 3
-*   **Core Library:** `gTTS` (Google Text-to-Speech API)
+---
+
+## 📦 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The app will open automatically in your browser:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## ☁️ Deployment
+
+This project can be deployed easily using Streamlit Community Cloud.
+
+### Deployment Steps
+
+1. Push the project to GitHub
+2. Visit Streamlit Community Cloud
+3. Click **New App**
+4. Select your GitHub repository
+5. Set:
+   - Branch: `main`
+   - Main file path: `app.py`
+6. Click **Deploy**
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Backend Logic |
+| Streamlit | Web Application Framework |
+| gTTS | Google Text-to-Speech Engine |
+| HTML/CSS | Custom UI Styling |
+
+---
+
+## 📌 Future Improvements
+
+- 🎤 Speech-to-Text support
+- 📄 PDF/Text file upload
+- 🧠 AI voice cloning
+- 🌗 Dark/Light mode toggle
+- 💾 Audio history saving
+- ☁️ Cloud storage integration
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
