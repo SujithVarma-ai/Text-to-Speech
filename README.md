@@ -1,7 +1,7 @@
 # 🎙️ AI Voice Studio – Premium Text-to-Speech Converter
 
-AI Voice Studio is a modern and interactive Text-to-Speech web application built using Python, Streamlit, and Google Text-to-Speech (gTTS).  
-It converts written text into realistic speech audio with support for multiple languages, speech speed control, audio playback, and MP3 downloads.
+**AI Voice Studio** is a modern and interactive **Text-to-Speech (TTS)** web application built with **Python**, **Streamlit**, and **Google Text-to-Speech (gTTS)**. 
+It converts written text into natural-sounding speech with support for multiple languages, adjustable speech speed, instant audio playback, and downloadable MP3 files through an intuitive and responsive user interface.
 
 ---
 
